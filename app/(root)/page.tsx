@@ -1,6 +1,6 @@
-import CategoryFilter from "@/components/shared/CategoryFilter";
-import Collection from "@/components/shared/Collection";
-import Search from "@/components/shared/Search";
+// import CategoryFilter from "@/components/shared/CategoryFilter";
+// import Collection from "@/components/shared/Collection";
+// import Search from "@/components/shared/Search";
 import { Button } from "@/components/ui/button";
 // import { getAllEvents } from '@/lib/actions/event.actions';
 // import { SearchParamProps } from '@/types';
@@ -44,8 +44,8 @@ export default async function Home() {
         </h2>
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
-          <Search />
-          <CategoryFilter />
+          {/* <Search />
+          <CategoryFilter /> */}
         </div>
 
         {/* <Collection 
